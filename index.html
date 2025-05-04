@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Hari Ini - Portal Berita Terkini</title>
+    <style>
+        /* Gaya CSS seperti sebelumnya */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nav {
+            background-color: #34495e;
+            padding: 1rem;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .featured-article {
+            margin-bottom: 3rem;
+        }
+
+        .featured-article img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .article-content {
+            margin-top: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .news-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .news-card {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+        }
+
+        .news-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+
+        .category-tag {
+            background-color: #e74c3c;
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 3px;
+            display: inline-block;
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>BERITA HARI INI</h1>
+        <p>Portal Berita Terpercaya dan Terkini</p>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#politik">Politik</a></li>
+            <li><a href="#ekonomi">Ekonomi</a></li>
+            <li><a href="#teknologi">Teknologi</a></li>
+            <li><a href="#olahraga">Olahraga</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <article class="featured-article">
+            <h2>Empat Acara Akbar Meriahkan GBK Jakarta Hari Ini</h2>
+            <span class="category-tag">Hiburan</span>
+            <img src="https://picsum.photos/1200/400?random=10" alt="Acara GBK Jakarta">
+
+            <div class="article-content">
+                <p><strong>Jakarta</strong> - Hari ini, Minggu (4/5/2025), kawasan Gelora Bung Karno (GBK) Jakarta menjadi pusat perhatian dengan digelarnya empat acara besar yang menarik ribuan pengunjung. Acara tersebut meliputi konser solo J-Hope BTS, pertunjukan Disney On Ice, pameran Deep and Extreme Indonesia, dan zona aktivitas Mizone Cocoboost. Pengunjung diimbau untuk menggunakan transportasi umum dan menghindari area sekitar GBK jika tidak memiliki keperluan mendesak. :contentReference[oaicite:1]{index=1}</p>
+            </div>
+            <p class="author">Ditulis oleh: Admin Berita - 4 Mei 2025</p>
+        </article>
+
+        <section class="news-grid">
+            <div class="news-card">
+                <img src="https://picsum.photos/300/200?random=11" alt="Harga Emas">
+                <span class="category-tag">Ekonomi</span>
+                <h3>Harga Emas Turun, Peluang Investasi?</h3>
+                <p>Harga emas di Pegadaian turun Rp10.000 per gram pada 4 Mei 2025, menjadikannya momen menarik bagi investor. :contentReference[oaicite:2]{index=2}</p>
+                <a href="#">Baca Selengkapnya →</a>
+            </div>
+
+            <div class="news-card">
+                <img src="https://picsum.photos/300/200?random=12" alt="Cuaca Indonesia">
+                <span class="category-tag">Cuaca</span>
+                <h3>BMKG: Waspada Hujan Lebat di Beberapa Wilayah</h3>
+                <p>BMKG mengeluarkan peringatan dini untuk hujan lebat di wilayah Aceh, Sumatera Utara, dan Kalimantan Timur pada 4 Mei 2025. :contentReference[oaicite:3]{index=3}</p>
+                <a href="#">Baca Selengkapnya →</a>
+            </div>
+
+            <div class="news-card">
+                <img src="https://picsum.photos/300/200?random=13" alt="Film Indonesia">
+                <span class="category-tag">Hiburan</span>
+                <h3>Film Indonesia Terbaru Tayang Mei 2025</h3>
+                <p>Industri perfilman Indonesia kembali bergairah dengan deretan film terbaru yang tayang di bioskop sepanjang bulan Mei 2025. :contentReference[oaicite:4]{index=4}</p>
+                <a href="#">Baca Selengkapnya →</a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Berita Hari Ini - All Rights Reserved</p>
+        <p>Redaksi: redaksi@beritahariini.com</p>
+    </footer>
+</body>
+</html>
